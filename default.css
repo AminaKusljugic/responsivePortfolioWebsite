@@ -303,9 +303,11 @@ h6{ font-size: 16px;}
 
 .contact{
     display: grid;
+    grid-template-rows: repeat(auto-fit, min-max(320px, fr));
     align-content: center;
     text-align: center;
     padding-bottom: 20px;
+    
 }
 
 span{
